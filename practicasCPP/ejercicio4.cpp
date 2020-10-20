@@ -13,7 +13,7 @@ int main() {
         global2 = global2 + i;
     }
     
-    printf("sueldo global del segundo trabajo: %i", global2); //mostrar sueldo del segundo trabajo
+    printf("sueldo global del segundo trabajo: %i \n", global2); //mostrar sueldo del segundo trabajo
     
 	return 0;
 }
