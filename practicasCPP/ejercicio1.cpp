@@ -7,7 +7,7 @@ int main()
  float grados = 15.4; //declaracion de variables
  float radianes; //declaracion de variables
  
- printf("numero en grados: %f", grados); //mostrar el numero a convertir
+ printf("numero en grados: %f \n", grados); //mostrar el numero a convertir
  
  radianes = grados*2*PI/360; //operacion para convertir grados a radianes
  
