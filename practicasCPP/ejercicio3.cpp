@@ -14,7 +14,7 @@ int main() {
     y = horas_trabajadas_extra*pago_por_hora_extra; 
     sueldo_global = x + y; 
     
-    printf("sueldo global (Horas normales mas Horas extra): %i", sueldo_global); //sueldo total
+    printf("sueldo global (Horas normales mas Horas extra): %i \n", sueldo_global); //sueldo total
     
 	return 0;
 }
