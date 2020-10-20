@@ -1,11 +1,16 @@
-root@raspberrypi:/home/pi/revision# ls
-holaMundoAssembler.s
+    .text    
+    .global _start
 
-root@raspberrypi:/home/pi/revision# as -o holaMundoAssembler.o holaMundoAssembler.s
-root@raspberrypi:/home/pi/revision# ld -o holaMundoAssembler  holaMundoAssembler.o
+_start:    
+    mov   r7,#4        @ write system call    
+    mov   r0,#1        @ file (stdout)    
+    ldr   r1,=message    
+    mov   r2,#14       @ message length     
+    svc   #0    
+    mov   r7,#1        @ exit system call    
+    mov   r0,#0        @ return code    
+    svc   #0    
+   .data
 
-root@raspberrypi:/home/pi/revision# ./holaMundoAssembler.s
-
-Hello, world!
-
-root@raspberrypi:/home/pi/revision# 
+message:    
+    .ascii "Hello, world!\n"
