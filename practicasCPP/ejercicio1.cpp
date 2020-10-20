@@ -11,7 +11,7 @@ int main()
  
  radianes = grados*2*PI/360; //operacion para convertir grados a radianes
  
- printf("convertido a radianes son: %f", radianes); //mostrar el numero convertido
+ printf("convertido a radianes son: %f \n", radianes); //mostrar el numero convertido
  
  	return 0;
 }
