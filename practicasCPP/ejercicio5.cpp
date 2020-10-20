@@ -11,7 +11,7 @@ int main() {
     
     total = (sueldo*horas)+(sueldo2*horas_extras); //calcular el total del sueldo
     
-    printf("sueldo total: %f", total); //mostrar resultado
+    printf("sueldo total: %f \n", total); //mostrar resultado
     
 	return 0;
 }
