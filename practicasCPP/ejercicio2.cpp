@@ -5,11 +5,11 @@ using namespace std;
 int main() {
     float radianes = 0.0174533, grados;  //declaracion de variables
     
-    printf("el numero en radianes es: %f ", radianes); //mostrar el numero que se va a convertir
+    printf("el numero en radianes es: %f \n", radianes); //mostrar el numero que se va a convertir
     
     grados = radianes*(180/PI); //operacion para convertir de radianes a grados
     
-    printf("el numero en grados es: %f", grados); //mostrar el resultado en grados
+    printf("el numero en grados es: %f \n", grados); //mostrar el resultado en grados
     
 	return 0;
 }
