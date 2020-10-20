@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 using namespace std;
 #define PI 3.1416 //dar un valor pi de forma global
 
